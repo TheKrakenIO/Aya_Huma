@@ -351,21 +351,6 @@ def option_20(target):
         os.system(searchsploit_command)  
 
 def option_21(target):
-    # List of potentially malicious websites
-    dangerous_urls = [
-        "http://maliciouswebsite.com",
-        "http://phishingsite.com",
-        # More malicious URLs can be added here for testing
-    ]
-
-    # List of trusted websites
-    trusted_websites = [
-        "http://trustedwebsite.com",
-        "http://anothertrustedwebsite.com",
-        # More trusted websites can be added here
-    ]
-
-    def check_redirects(target):
         # Redirection parameters to check
         params = ["url=", "link=", "goto=", "target=", "destination="]
         http_methods = ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS', 'CONNECT']
