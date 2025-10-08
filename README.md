@@ -8,7 +8,7 @@ This script is a comprehensive cybersecurity tool designed for scanning and anal
 
 ## Dependencies
 
-Before running the script, ensure that you have all the required Python libraries and external tools installed, run the script check_requirements.py.
+Before running the script, ensure that you have installed all the required Python libraries and external tools. Run the script check_requirements.py.
 
 ### Python Libraries
 
@@ -34,4 +34,4 @@ Before running the script, ensure that you have all the required Python librarie
 In Linux or macOS, you can run the script using the following command, with root privileges:
 
 ```bash
-sudo python3 script_name.py
+sudo python3 Aya_huma.py
